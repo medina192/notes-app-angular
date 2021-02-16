@@ -21,6 +21,7 @@ app.use('/api/notes', require('./routes/notesRoutes'));
 
 dbConection();
 
+//https://notes-app-angular-node.herokuapp.com/ deployed to Heroku
 
 // Directorio público
 app.use( express.static('public') );
